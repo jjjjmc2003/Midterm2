@@ -1,0 +1,16 @@
+Question 2: Array Duplication Method
+
+In this exercise, you will develop a method that manipulates array content in a specific manner. Your task is to write a method that takes an array of integers as input and returns a new array. The returned array should be twice as large as the original and contain a duplicated copy of the original array's elements. For example, if the input array is [1, 2, 3], the method should return [1, 2, 3, 1, 2, 3].
+
+Instructions:
+            Method Name: duplicateArray
+            Parameters:
+            An array of integers (int[] originalArray).
+            Return Type: An array of integers (int[]).
+Functionality: The returned array should be double the length of the input array, with the second half being an exact duplicate of the first half.
+Example:
+    If the input array is [1, 2, 3], then the method should return [1, 2, 3, 1, 2, 3].
+    For an input array of [4, 5], the method should return [4, 5, 4, 5].
+
+    Note: The input array may be of any length.
+    Note: The main function is already written for you. You need to write the method duplicateArray and test it with the main function.

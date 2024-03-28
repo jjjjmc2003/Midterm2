@@ -1,0 +1,33 @@
+Implementing a Shape Hierarchy with OOP Principles
+
+In this exercise, you are tasked with demonstrating your understanding of Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and method overriding. You will create a simple class hierarchy that represents geometric shapes.
+
+Instructions:
+Shape Class:
+This will be your base class.
+Include at least one common attribute (e.g., color) that all shapes will inherit.
+Define a method describeShape() that returns a String describing the shape (e.g., "Shape with color: blue").
+
+Circle Class:
+Inherits from the Shape class.
+Include specific attributes relevant to a circle (e.g., radius).
+Override the describeShape() method to include details specific to the circle (e.g., "Circle with radius: 5 and color: blue").
+
+Triangle Class:
+Inherits from the Shape class.
+Include specific attributes relevant to a triangle (e.g., base, height).
+Override the describeShape() method to include details specific to the triangle.
+
+
+RightTriangle Class:
+Inherits from the Triangle class.
+Override the describeShape() method to specify it is a right triangle.
+
+
+Notes:
+
+Encapsulation:
+Ensure that all attributes are private and provide getter methods for each attribute.
+
+As Before, use the Main Method in Shape_Main.java to test your implementation..
+Feel free to test your implementation with additional test cases.

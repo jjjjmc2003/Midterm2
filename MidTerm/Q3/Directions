@@ -1,0 +1,41 @@
+Implementing the StreetSign Class
+
+In this exercise, you are tasked with creating a class called StreetSign that is designed to manage the formatting and display of messages on an electronic street sign.
+
+The input:
+A string containing the message to be displayed on the street sign.
+The street sign can only display a certain number of characters on each line.
+A street sign can have unlimited lines.
+
+The output:
+A printed string. Each line of the printed string should contain the maximum number of characters that the street sign can display (which is specified as an integer argument when the StreetSign class is instantiated).
+
+For example, the following string is too long to display on one line of the street sign (length = 5 characters):
+Hello, world!!!!
+As such it will print:
+Hello
+world
+!!!!
+
+Another Example:
+If the street sign is 7 characters wide, the following string:
+I am so excited about the street sign exercise
+Will print:
+I am so
+excited
+about the
+street
+sign
+exercise
+
+Please note, for full credit, the words on each line must be whole words
+For example, if the following string:
+
+"I am so excited" with a street sign width of 4 characters prints:
+I am
+soex
+cited
+
+You will not receive full credit.
+
+
